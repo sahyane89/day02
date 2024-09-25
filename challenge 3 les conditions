@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() 
+{
+int a,b,k;
+    printf("entrer le premier nombre : ");
+    scanf("%d",&a);
+    
+    printf("entrer le deusieme nombre : ");
+    scanf("%d",&b);
+
+      if (a==b){
+
+        k = (a+b) * 3 ;
+        printf("le triple de la somme de a + b est : %d",k);
+        
+    }
+    else 
+    printf("la somme de a + b est : %d",(a+b));
+        
+
+    return 0;
+}

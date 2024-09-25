@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    char caractere;
+
+    printf("Entrez un caractère : ");
+    scanf(" %c", &caractere); 
+
+    switch (caractere) {
+        case 'a':
+        printf("Le caractère '%c' est une voyelle \n", caractere);
+        break;
+        case 'e':
+        printf("Le caractère '%c' est une voyelle \n", caractere);
+        break;
+        case 'i':
+        printf("Le caractère '%c' est une voyelle \n", caractere);
+        break;
+        case 'o':
+        printf("Le caractère '%c' est une voyelle \n", caractere);
+        break;
+        case 'u':
+        printf("Le caractère '%c' est une voyelle \n", caractere);
+        break;
+
+
+        default:
+        printf("Le caractère '%c' n'est pas une voyelle \n", caractere);
+        break;
+    }
+        
+        return (0);
+}
